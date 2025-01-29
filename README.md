@@ -2,8 +2,8 @@
 
 ## scheduler logical
 
-- scheduler actively watch pod status and select the node for pod
-- watch pod status, found pending pod and scheduler match this scheduler
+- scheduler actively watch pod status and bind to the node
+- watch pod status, find pending pod which match this scheduler
 - get node cpu and mem metrics, and sum it value, select the little one
 - pod bind to node
 
